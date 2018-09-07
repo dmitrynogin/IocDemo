@@ -1,4 +1,5 @@
-﻿using IocDemo.ComponentModel;
+﻿using Autofac;
+using IocDemo.ComponentModel;
 using System;
 using System.Collections.Generic;
 using System.Text;

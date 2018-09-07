@@ -4,7 +4,8 @@ using System.Text;
 
 namespace IocDemo.ComponentModel
 {
-    interface IStartup
+    public interface IStartup
     {
+        void Start();
     }
 }

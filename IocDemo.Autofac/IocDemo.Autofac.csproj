@@ -15,17 +15,20 @@
   <ItemGroup>
     <None Update="Solution.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Solution.txt</LastGenOutput>
-    </None>
-    <None Update="Solution.txt">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Solution.tt</DependentUpon>
+      <LastGenOutput>Solution.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
   <ItemGroup>
     <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Solution.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Solution.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
 
 </Project>
